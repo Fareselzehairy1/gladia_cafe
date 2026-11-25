@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GLÄDIA — Coffee. Art. Experience. | Specialty Café, Al Muhammadiyah, Jeddah</title>
+<meta name="description" content="GLÄDIA is an artistic café in Al Muhammadiyah, Jeddah — where specialty coffee meets creativity. Concept prototype presented by Servlexy.">
+<meta name="theme-color" content="#20201E">
+<link rel="preload" href="cormorant-300-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="jost-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="tajawal-400-arabic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="hero.jpg" as="image">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+<noscript><style>
+  .preloader{display:none!important}
+  .menu__tabs{display:none!important}
+  .reveal{opacity:1!important;transform:none!important}
+  .hero__letters span{opacity:1!important;transform:none!important}
+</style></noscript>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2320201E'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23F5F0E8' stroke-width='1'/%3E%3Ccircle cx='13' cy='7' r='1.3' fill='%23F5F0E8'/%3E%3Ccircle cx='19' cy='7' r='1.3' fill='%23F5F0E8'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ============ SVG SYMBOLS ============ -->
+<svg class="svg-defs" aria-hidden="true" focusable="false">
+  <symbol id="i-mark" viewBox="0 0 40 40">
+    <circle cx="20" cy="21" r="11.5" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M27.4 16.6a9 9 0 1 0 2.1 8.9" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <path d="M22.5 19.5h7.2v5.4" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="16.4" cy="6.4" r="1.5" fill="currentColor"/>
+    <circle cx="23.6" cy="6.4" r="1.5" fill="currentColor"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M12.5 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8.5 7H17v8.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9.5 12 15.5 18 9.5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="17" cy="7" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3.6 20.4 5 16.3A7.9 7.9 0 1 1 8 19.2l-4.4 1.2Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M9 8.4c.2 2.6 1.9 4.3 4.5 4.6l1-1.2 1.6.9-.3 1.5c-2.9.5-6.6-2.5-6.9-5.6l1.4-.8.9 1.6Z" fill="none" stroke="currentColor" stroke-width="1.05" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M12 7.4V12l3.2 2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5c.9 4.6 3.9 7.6 8.5 8.5-4.6.9-7.6 3.9-8.5 8.5-.9-4.6-3.9-7.6-8.5-8.5 4.6-.9 7.6-3.9 8.5-8.5Z" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <svg class="preloader__mark" width="46" height="46"><use href="#i-mark"/></svg>
+    <div class="preloader__word"><span>G</span><span>L</span><span>&Auml;</span><span>D</span><span>I</span><span>A</span></div>
+    <div class="preloader__bar"><i></i></div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="hdr__progress"><i id="progressBar"></i></div>
+  <div class="hdr__inner">
+    <a href="#top" class="logo" aria-label="GLÄDIA — الصفحة الرئيسية" data-aria-en="GLÄDIA — home" data-aria-ar="غلاديا — الصفحة الرئيسية">
+      <svg class="logo__mark" width="34" height="34" aria-hidden="true"><use href="#i-mark"/></svg>
+      <span class="logo__word">GLÄDIA</span>
+    </a>
+
+    <nav class="nav" aria-label="التنقل الرئيسي" data-aria-en="Primary" data-aria-ar="التنقل الرئيسي">
+      <a href="#story" class="nav__link" data-en="Story" data-ar="القصة">القصة</a>
+      <a href="#menu" class="nav__link" data-en="Menu" data-ar="القائمة">القائمة</a>
+      <a href="#gallery" class="nav__link" data-en="Gallery" data-ar="المعرض">المعرض</a>
+      <a href="#events" class="nav__link" data-en="Events" data-ar="التجارب">التجارب</a>
+      <a href="#visit" class="nav__link" data-en="Visit" data-ar="زورونا">زورونا</a>
+    </nav>
+
+    <div class="hdr__actions">
+      <div class="lang" role="group" aria-label="اللغة" data-aria-en="Language" data-aria-ar="اللغة">
+        <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">EN</button>
+        <span class="lang__sep" aria-hidden="true"></span>
+        <button type="button" class="lang__btn is-active" data-lang="ar" aria-pressed="true"><span lang="ar">ع</span></button>
+      </div>
+      <a href="#contact" class="btn btn--sm hdr__cta">
+        <span data-en="Contact" data-ar="تواصل معنا">تواصل معنا</span>
+      </a>
+      <button type="button" class="burger" id="burger" aria-label="فتح القائمة" data-aria-en="Open menu" data-aria-ar="فتح القائمة" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <div class="mmenu__bg"></div>
+  <nav class="mmenu__nav" aria-label="التنقل عبر الجوال" data-aria-en="Mobile" data-aria-ar="التنقل عبر الجوال">
+    <a href="#story"  class="mmenu__link"><em>01</em><span data-en="Story" data-ar="القصة">القصة</span></a>
+    <a href="#menu"   class="mmenu__link"><em>02</em><span data-en="Menu" data-ar="القائمة">القائمة</span></a>
+    <a href="#gallery" class="mmenu__link"><em>03</em><span data-en="Gallery" data-ar="المعرض">المعرض</span></a>
+    <a href="#events" class="mmenu__link"><em>04</em><span data-en="Events" data-ar="التجارب">التجارب</span></a>
+    <a href="#visit"  class="mmenu__link"><em>05</em><span data-en="Visit" data-ar="زورونا">زورونا</span></a>
+    <a href="#contact"  class="mmenu__link"><em>06</em><span data-en="Contact" data-ar="تواصل معنا">تواصل معنا</span></a>
+  </nav>
+  <div class="mmenu__foot">
+    <a href="https://instagram.com/gladia_cafe" target="_blank" rel="noopener" class="mmenu__ig">
+      <svg width="16" height="16"><use href="#i-instagram"/></svg><span class="handle">@gladia_cafe</span>
+    </a>
+    <p class="mmenu__note" data-en="Al Muhammadiyah, Jeddah" data-ar="المحمدية، جدة">المحمدية، جدة</p>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ A. HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <img src="hero.jpg" alt="Warmly lit bar of the GLÄDIA concept café" class="hero__img" width="2400" height="1600">
+    <div class="hero__veil"></div>
+    <div class="hero__grain"></div>
+  </div>
+
+  <div class="hero__inner shell">
+    <p class="hero__eyebrow reveal" data-en="Specialty Coffee &middot; Art &middot; Community" data-ar="قهوة متخصصة · فن · مجتمع">قهوة متخصصة · فن · مجتمع</p>
+
+    <h1 class="hero__title" aria-label="GLÄDIA">
+      <span class="hero__letters">
+        <span style="--i:0">G</span><span style="--i:1">L</span><span style="--i:2">&Auml;</span><span style="--i:3">D</span><span style="--i:4">I</span><span style="--i:5">A</span>
+      </span>
+    </h1>
+
+    <p class="hero__tagline reveal" data-d="1" data-en="Coffee. Art. Experience." data-ar="قهوة. فن. تجربة.">قهوة. فن. تجربة.</p>
+    <p class="hero__lead reveal" data-d="2" data-en="Discover a place where specialty coffee meets creativity." data-ar="اكتشف مكانًا تلتقي فيه القهوة المتخصصة بالإبداع.">اكتشف مكانًا تلتقي فيه القهوة المتخصصة بالإبداع.</p>
+
+    <div class="hero__cta reveal" data-d="3">
+      <a href="#menu" class="btn btn--light">
+        <span data-en="Explore Our Menu" data-ar="تصفّح القائمة">تصفّح القائمة</span>
+        <svg width="18" height="18"><use href="#i-arrow"/></svg>
+      </a>
+      <a href="#story" class="btn btn--ghost">
+        <span data-en="Discover GLÄDIA" data-ar="اكتشف غلاديا">اكتشف غلاديا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__foot shell">
+    <a href="#story" class="hero__scroll">
+      <span data-en="Scroll to explore" data-ar="مرّر للاستكشاف">مرّر للاستكشاف</span>
+      <i class="hero__scrollline"></i>
+    </a>
+    <p class="hero__loc">
+      <svg width="14" height="14"><use href="#i-pin"/></svg>
+      <span data-en="Al Muhammadiyah, Jeddah" data-ar="المحمدية، جدة">المحمدية، جدة</span>
+    </p>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span data-en="Specialty Coffee" data-ar="قهوة متخصصة">قهوة متخصصة</span><b>✦</b><span data-en="Art Exhibitions" data-ar="معارض فنية">معارض فنية</span><b>✦</b><span data-en="Slow Mornings" data-ar="صباحات هادئة">صباحات هادئة</span><b>✦</b><span data-en="Creative Gatherings" data-ar="لقاءات مبدعة">لقاءات مبدعة</span><b>✦</b>
+    <span data-en="Specialty Coffee" data-ar="قهوة متخصصة">قهوة متخصصة</span><b>✦</b><span data-en="Art Exhibitions" data-ar="معارض فنية">معارض فنية</span><b>✦</b><span data-en="Slow Mornings" data-ar="صباحات هادئة">صباحات هادئة</span><b>✦</b><span data-en="Creative Gatherings" data-ar="لقاءات مبدعة">لقاءات مبدعة</span><b>✦</b>
+  </div>
+</div>
+
+<!-- ============ B. BRAND STORY ============ -->
+<section class="story section" id="story">
+  <div class="shell story__grid">
+
+    <div class="story__text">
+      <p class="eyebrow reveal"><span class="eyebrow__line"></span><span data-en="The Story" data-ar="القصة">القصة</span></p>
+      <h2 class="h2 reveal" data-d="1" data-en="More Than Coffee. It's an Experience." data-ar="أكثر من قهوة. إنها تجربة.">أكثر من قهوة. إنها تجربة.</h2>
+      <p class="story__para reveal" data-d="2" data-en="GLÄDIA was imagined as a third place — somewhere between the gallery and the coffee bar, where a single-origin pour-over and an original painting belong to the very same afternoon." data-ar="صُمّمت غلاديا كـ«مكان ثالث» بين معرض فني وبار قهوة، حيث تنتمي قهوة الموطن الواحد ولوحة أصلية إلى وقت واحد من الظهيرة.">صُمّمت غلاديا كـ«مكان ثالث» بين معرض فني وبار قهوة، حيث تنتمي قهوة الموطن الواحد ولوحة أصلية إلى وقت واحد من الظهيرة.</p>
+      <p class="story__para reveal" data-d="3" data-en="The room changes with every exhibition, every cup, every guest who stays a little longer. Specialty coffee is the excuse; creativity is the reason." data-ar="يتبدّل المكان مع كل معرض، وكل فنجان، وكل ضيف يمضي وقتًا أطول. القهوة المتخصصة هي المبرر، والإبداع هو السبب.">يتبدّل المكان مع كل معرض، وكل فنجان، وكل ضيف يمضي وقتًا أطول. القهوة المتخصصة هي المبرر، والإبداع هو السبب.</p>
+
+      <ul class="pillars">
+        <li class="pillar reveal" data-d="4">
+          <span class="pillar__num">01</span>
+          <div>
+            <h3 data-en="Art" data-ar="الفن">الفن</h3>
+            <p data-en="Walls that keep changing — rotating works by local and regional makers." data-ar="جدران تتغيّر باستمرار — أعمال متجدّدة لصنّاع محليين وإقليميين.">جدران تتغيّر باستمرار — أعمال متجدّدة لصنّاع محليين وإقليميين.</p>
+          </div>
+        </li>
+        <li class="pillar reveal" data-d="5">
+          <span class="pillar__num">02</span>
+          <div>
+            <h3 data-en="Coffee" data-ar="القهوة">القهوة</h3>
+            <p data-en="Precision in the cup, character in the bean, restraint in everything else." data-ar="دقّة في الفنجان، وشخصية في الحبة، وهدوء في كل ما عداها.">دقّة في الفنجان، وشخصية في الحبة، وهدوء في كل ما عداها.</p>
+          </div>
+        </li>
+        <li class="pillar reveal" data-d="6">
+          <span class="pillar__num">03</span>
+          <div>
+            <h3 data-en="Community" data-ar="المجتمع">المجتمع</h3>
+            <p data-en="A table worth lingering at — for artists, founders and old friends." data-ar="طاولة تستحق البقاء — للفنانين ورؤساء الأعمال والأصدقاء القدامى.">طاولة تستحق البقاء — للفنانين ورؤساء الأعمال والأصدقاء القدامى.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="story__media">
+      <figure class="story__fig story__fig--main reveal">
+        <img src="story-1.jpg" alt="Barista working behind the counter of the concept café" loading="lazy" width="1400" height="933">
+      </figure>
+      <figure class="story__fig story__fig--sub reveal" data-d="2">
+        <img src="story-2.jpg" alt="Sunlit café table prepared for guests" loading="lazy" width="1100" height="733">
+      </figure>
+      <div class="story__badge reveal" data-d="3">
+        <svg width="22" height="22"><use href="#i-spark"/></svg>
+        <p data-en="A room designed to be photographed — and remembered." data-ar="مكان صُمّم ليُصوَّر — ويُحفظ في الذاكرة.">مكان صُمّم ليُصوَّر — ويُحفظ في الذاكرة.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ C. SIGNATURE MENU ============ -->
+<section class="menu section" id="menu">
+  <div class="shell">
+    <header class="sec-head">
+      <div>
+        <p class="eyebrow reveal"><span class="eyebrow__line"></span><span data-en="The Menu" data-ar="القائمة">القائمة</span></p>
+        <h2 class="h2 reveal" data-d="1" data-en="Signature Menu" data-ar="قائمة مميّزة">قائمة مميّزة</h2>
+      </div>
+      <p class="demo-note reveal" data-d="2">
+        <span class="demo-note__tag" data-en="Demo" data-ar="نموذج">نموذج</span>
+        <span data-en="Sample items &amp; prices — for presentation purposes only." data-ar="عناصر وأسعار تجريبية — لأغراض العرض فقط.">عناصر وأسعار تجريبية — لأغراض العرض فقط.</span>
+      </p>
+    </header>
+
+    <div class="menu__tabs reveal" role="tablist" aria-label="أقسام القائمة" data-aria-en="Menu categories" data-aria-ar="أقسام القائمة" id="menuTabs">
+      <button type="button" role="tab" class="menu__tab is-active" data-cat="all" aria-selected="true"><span data-en="All" data-ar="الكل">الكل</span></button>
+      <button type="button" role="tab" class="menu__tab" data-cat="specialty" aria-selected="false"><span data-en="Specialty Coffee" data-ar="قهوة متخصصة">قهوة متخصصة</span></button>
+      <button type="button" role="tab" class="menu__tab" data-cat="hot" aria-selected="false"><span data-en="Hot Drinks" data-ar="مشروبات ساخنة">مشروبات ساخنة</span></button>
+      <button type="button" role="tab" class="menu__tab" data-cat="cold" aria-selected="false"><span data-en="Cold Drinks" data-ar="مشروبات باردة">مشروبات باردة</span></button>
+      <button type="button" role="tab" class="menu__tab" data-cat="signature" aria-selected="false"><span data-en="Signature Creations" data-ar="إبداعات مميّزة">إبداعات مميّزة</span></button>
+      <button type="button" role="tab" class="menu__tab" data-cat="desserts" aria-selected="false"><span data-en="Desserts" data-ar="حلويات">حلويات</span></button>
+    </div>
+
+    <div class="menu__grid" id="menuGrid">
+
+      <article class="card reveal" data-cat="specialty">
+        <div class="card__media"><img src="menu-sc-1.jpg" alt="Sample pour-over coffee" loading="lazy" width="900" height="600"><span class="card__idx">01</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Single Origin Pour Over" data-ar="قهوة الموطن الواحد">قهوة الموطن الواحد</h3>
+          <p class="card__desc" data-en="Rotating origins, brewed to reveal terroir." data-ar="موطن متغيّر، يُحضَّر لإبراز خصوصية الأرض.">موطن متغيّر، يُحضَّر لإبراز خصوصية الأرض.</p>
+          <div class="card__foot"><span class="card__price" data-en="26 SAR" data-ar="26 ر.س">26 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="1" data-cat="specialty">
+        <div class="card__media"><img src="menu-sc-2.jpg" alt="Sample espresso being poured" loading="lazy" width="900" height="600"><span class="card__idx">02</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Espresso" data-ar="إسبريسو">إسبريسو</h3>
+          <p class="card__desc" data-en="A short, dense and aromatic shot." data-ar="جرعة قصيرة، كثيفة وعطرية.">جرعة قصيرة، كثيفة وعطرية.</p>
+          <div class="card__foot"><span class="card__price" data-en="16 SAR" data-ar="16 ر.س">16 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="2" data-cat="specialty">
+        <div class="card__media"><img src="menu-sc-3.jpg" alt="Sample filter coffee brew" loading="lazy" width="900" height="600"><span class="card__idx">03</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Cold Brew" data-ar="قهوة باردة">قهوة باردة</h3>
+          <p class="card__desc" data-en="Slow-steeped for eighteen hours. Silky and low in acidity." data-ar="تُنقَع ببطء ثماني عشرة ساعة. حريرية ومنخفضة الحموضة.">تُنقَع ببطء ثماني عشرة ساعة. حريرية ومنخفضة الحموضة.</p>
+          <div class="card__foot"><span class="card__price" data-en="24 SAR" data-ar="24 ر.س">24 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="3" data-cat="specialty">
+        <div class="card__media"><img src="menu-sc-4.jpg" alt="Sample coffee tools flat lay" loading="lazy" width="900" height="600"><span class="card__idx">04</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Filter Batch" data-ar="قهوة الترشيح">قهوة الترشيح</h3>
+          <p class="card__desc" data-en="A clean, balanced cup designed for slow mornings." data-ar="فنجان نظيف ومتوازن مُصمَّم لصباحات بطيئة.">فنجان نظيف ومتوازن مُصمَّم لصباحات بطيئة.</p>
+          <div class="card__foot"><span class="card__price" data-en="22 SAR" data-ar="22 ر.س">22 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="hot">
+        <div class="card__media"><img src="menu-hot-1.jpg" alt="Sample latte with art" loading="lazy" width="900" height="600"><span class="card__idx">05</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Flat White" data-ar="فلات وايت">فلات وايت</h3>
+          <p class="card__desc" data-en="Silky microfoam over a double shot." data-ar="رغوة حريرية فوق جرعة مزدوجة.">رغوة حريرية فوق جرعة مزدوجة.</p>
+          <div class="card__foot"><span class="card__price" data-en="24 SAR" data-ar="24 ر.س">24 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="1" data-cat="hot">
+        <div class="card__media"><img src="menu-hot-2.jpg" alt="Sample rosetta latte" loading="lazy" width="900" height="600"><span class="card__idx">06</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Cappuccino" data-ar="كابتشينو">كابتشينو</h3>
+          <p class="card__desc" data-en="Balanced foam, warm milk, soft crema." data-ar="رغوة متوازنة، وحليب دافئ، وكريمة ناعمة.">رغوة متوازنة، وحليب دافئ، وكريمة ناعمة.</p>
+          <div class="card__foot"><span class="card__price" data-en="23 SAR" data-ar="23 ر.س">23 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="2" data-cat="hot">
+        <div class="card__media"><img src="menu-hot-3.jpg" alt="Sample two latte art cups" loading="lazy" width="900" height="600"><span class="card__idx">07</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Cortado" data-ar="كورتادو">كورتادو</h3>
+          <p class="card__desc" data-en="Equal parts espresso and warm milk." data-ar="أجزاء متساوية من الإسبريسو والحليب الدافئ.">أجزاء متساوية من الإسبريسو والحليب الدافئ.</p>
+          <div class="card__foot"><span class="card__price" data-en="21 SAR" data-ar="21 ر.س">21 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="3" data-cat="hot">
+        <div class="card__media"><img src="menu-hot-4.jpg" alt="Sample matcha latte by the window" loading="lazy" width="900" height="600"><span class="card__idx">08</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Matcha Latte" data-ar="لاتيه الماتشا">لاتيه الماتشا</h3>
+          <p class="card__desc" data-en="Ceremonial matcha, oat milk, no added sugar." data-ar="ماتشا فاخر، وحليب الشوفان، بلا سكر مضاف.">ماتشا فاخر، وحليب الشوفان، بلا سكر مضاف.</p>
+          <div class="card__foot"><span class="card__price" data-en="26 SAR" data-ar="26 ر.س">26 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="cold">
+        <div class="card__media"><img src="menu-cold-1.jpg" alt="Sample iced coffee" loading="lazy" width="900" height="600"><span class="card__idx">09</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Iced Latte" data-ar="لاتيه بارد">لاتيه بارد</h3>
+          <p class="card__desc" data-en="A double shot poured over cold milk and ice." data-ar="جرعة مزدوجة فوق الحليب البارد والثلج.">جرعة مزدوجة فوق الحليب البارد والثلج.</p>
+          <div class="card__foot"><span class="card__price" data-en="24 SAR" data-ar="24 ر.س">24 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="1" data-cat="cold">
+        <div class="card__media"><img src="menu-cold-2.jpg" alt="Sample iced drink with greenery" loading="lazy" width="900" height="600"><span class="card__idx">10</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Iced Mocha" data-ar="موكا باردة">موكا باردة</h3>
+          <p class="card__desc" data-en="Espresso, dark chocolate and cold milk." data-ar="إسبريسو وشوكولاتة داكنة وحليب بارد.">إسبريسو وشوكولاتة داكنة وحليب بارد.</p>
+          <div class="card__foot"><span class="card__price" data-en="26 SAR" data-ar="26 ر.س">26 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="2" data-cat="cold">
+        <div class="card__media"><img src="menu-cold-3.jpg" alt="Sample iced coffee in glass" loading="lazy" width="900" height="600"><span class="card__idx">11</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Citrus Sparkling Tonic" data-ar="تونيك حمضي فاخر">تونيك حمضي فاخر</h3>
+          <p class="card__desc" data-en="Espresso tonic, orange peel, a lift of bubbles." data-ar="تونيك بالإسبريسو وقشر البرتقال وكمشة فقاعات.">تونيك بالإسبريسو وقشر البرتقال وكمشة فقاعات.</p>
+          <div class="card__foot"><span class="card__price" data-en="25 SAR" data-ar="25 ر.س">25 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="3" data-cat="cold">
+        <div class="card__media"><img src="menu-cold-4.jpg" alt="Sample signature cold creations" loading="lazy" width="900" height="600"><span class="card__idx">12</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Signature Tonic" data-ar="تونيك غلاديا">تونيك غلاديا</h3>
+          <p class="card__desc" data-en="House tonic, citrus peel and a whisper of lavender." data-ar="تونيك المحل، وقشر الحمضيات، ولمسة من اللافندر.">تونيك المحل، وقشر الحمضيات، ولمسة من اللافندر.</p>
+          <div class="card__foot"><span class="card__price" data-en="27 SAR" data-ar="27 ر.س">27 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="signature">
+        <div class="card__media"><img src="menu-sig-1.jpg" alt="Sample circle of signature cups" loading="lazy" width="900" height="600"><span class="card__idx">13</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="GLÄDIA House Blend" data-ar="خلطة غلاديا">خلطة غلاديا</h3>
+          <p class="card__desc" data-en="House espresso with notes of cocoa and orange peel." data-ar="إسبريسو المحل بنفحات الكاكاو وقشر البرتقال.">إسبريسو المحل بنفحات الكاكاو وقشر البرتقال.</p>
+          <div class="card__foot"><span class="card__price" data-en="25 SAR" data-ar="25 ر.س">25 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="1" data-cat="signature">
+        <div class="card__media"><img src="menu-sig-2.jpg" alt="Sample green signature latte" loading="lazy" width="900" height="600"><span class="card__idx">14</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Cardamom Latte" data-ar="لاتيه الهيل">لاتيه الهيل</h3>
+          <p class="card__desc" data-en="Green cardamom, cinnamon and steamed milk." data-ar="هيل أخضر وقرفة وحليب مبخّر.">هيل أخضر وقرفة وحليب مبخّر.</p>
+          <div class="card__foot"><span class="card__price" data-en="26 SAR" data-ar="26 ر.س">26 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="2" data-cat="signature">
+        <div class="card__media"><img src="menu-sig-3.jpg" alt="Sample signature brew preparation" loading="lazy" width="900" height="600"><span class="card__idx">15</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Rose Cold Foam" data-ar="رغوة الورد الباردة">رغوة الورد الباردة</h3>
+          <p class="card__desc" data-en="Vanilla cold foam, rose water and a bright espresso." data-ar="رغوة باردة بالڤانيليا وماء الورد وإسبريسو مشرق.">رغوة باردة بالڤانيليا وماء الورد وإسبريسو مشرق.</p>
+          <div class="card__foot"><span class="card__price" data-en="28 SAR" data-ar="28 ر.س">28 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="3" data-cat="signature">
+        <div class="card__media"><img src="menu-sig-4.jpg" alt="Sample coffee preparation flat lay" loading="lazy" width="900" height="600"><span class="card__idx">16</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Date &amp; Sesame Cold Brew" data-ar="قهوة باردة بالتمر والسمسم">قهوة باردة بالتمر والسمسم</h3>
+          <p class="card__desc" data-en="Medjool date, toasted sesame and slow cold brew." data-ar="تمر مجهول، سمسم محمّص، وقهوة باردة بطيئة.">تمر مجهول، سمسم محمّص، وقهوة باردة بطيئة.</p>
+          <div class="card__foot"><span class="card__price" data-en="27 SAR" data-ar="27 ر.س">27 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="desserts">
+        <div class="card__media"><img src="menu-des-1.jpg" alt="Sample dessert plate" loading="lazy" width="900" height="600"><span class="card__idx">17</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Basque Cheesecake" data-ar="تشيز كيك باسك">تشيز كيك باسك</h3>
+          <p class="card__desc" data-en="Burnt top, molten centre, a pinch of sea salt." data-ar="قمة محروقة، ومركز سائل، وقليل من ملح البحر.">قمة محروقة، ومركز سائل، وقليل من ملح البحر.</p>
+          <div class="card__foot"><span class="card__price" data-en="28 SAR" data-ar="28 ر.س">28 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="1" data-cat="desserts">
+        <div class="card__media"><img src="menu-des-2.jpg" alt="Sample caramel dessert" loading="lazy" width="900" height="600"><span class="card__idx">18</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Pistachio Éclair" data-ar="إكلير الفستق">إكلير الفستق</h3>
+          <p class="card__desc" data-en="Choux pastry, pistachio cream, white chocolate." data-ar="عجينة شو، وكريمة فستق، وشوكولاتة بيضاء.">عجينة شو، وكريمة فستق، وشوكولاتة بيضاء.</p>
+          <div class="card__foot"><span class="card__price" data-en="30 SAR" data-ar="30 ر.س">30 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="2" data-cat="desserts">
+        <div class="card__media"><img src="menu-des-3.jpg" alt="Sample cupcakes" loading="lazy" width="900" height="600"><span class="card__idx">19</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Tiramisu" data-ar="تيراميسو">تيراميسو</h3>
+          <p class="card__desc" data-en="Espresso-soaked savoiardi and mascarpone cream." data-ar="سافويوردي منقوعة بالإسبريسو وكريمة ماسكربوني.">سافويوردي منقوعة بالإسبريسو وكريمة ماسكربوني.</p>
+          <div class="card__foot"><span class="card__price" data-en="29 SAR" data-ar="29 ر.س">29 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-d="3" data-cat="desserts">
+        <div class="card__media"><img src="menu-des-4.jpg" alt="Sample chocolate cake" loading="lazy" width="900" height="600"><span class="card__idx">20</span></div>
+        <div class="card__body">
+          <h3 class="card__name" data-en="Seasonal Galette" data-ar="غالِيت الموسمية">غالِيت الموسمية</h3>
+          <p class="card__desc" data-en="Stone fruit, rye pastry and brown sugar." data-ar="فواكه حجرية، عجينة الجاودان، وسكر بنّي.">فواكه حجرية، عجينة الجاودان، وسكر بنّي.</p>
+          <div class="card__foot"><span class="card__price" data-en="26 SAR" data-ar="26 ر.س">26 ر.س</span><span class="card__sample" data-en="Sample" data-ar="تجريبي">تجريبي</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ D. ART & GALLERY ============ -->
+<section class="gallery section" id="gallery">
+  <div class="shell">
+    <header class="sec-head sec-head--center">
+      <div>
+        <p class="eyebrow reveal"><span class="eyebrow__line"></span><span data-en="Art &amp; Gallery" data-ar="الفن والمعرض">الفن والمعرض</span></p>
+        <h2 class="h2 reveal" data-d="1" data-en="A Room in Motion" data-ar="مكان دائم التغيّر">مكان دائم التغيّر</h2>
+      </div>
+      <p class="sec-head__lead reveal" data-d="2" data-en="A visual diary of GLÄDIA — mornings, exhibitions, and the quiet moments between them." data-ar="سجلٌّ بصري لغلاديا — صباحات، ومعارض، واللحظات الهادئة بينها.">سجلٌّ بصري لغلاديا — صباحات، ومعارض، واللحظات الهادئة بينها.</p>
+    </header>
+  </div>
+
+  <div class="masonry" id="masonry">
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="Morning light by the window" data-cap-ar="ضوء الصباح قرب النافذة" data-src="g-01.jpg">
+      <img src="g-01.jpg" alt="Morning light by the window" loading="lazy">
+      <span class="shot__cap"><span>Morning light by the window</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="Exhibition no. 04 — warm tones" data-cap-ar="المعرض الرابع — درجات دافئة" data-src="g-02.jpg">
+      <img src="g-02.jpg" alt="Exhibition no. 04 — warm tones" loading="lazy">
+      <span class="shot__cap"><span>Exhibition no. 04 — warm tones</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="3" data-cap-en="The roast room" data-cap-ar="غرفة التحميص" data-src="g-03.jpg">
+      <img src="g-03.jpg" alt="The roast room" loading="lazy">
+      <span class="shot__cap"><span>The roast room</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="4" data-cap-en="Still life in oils" data-cap-ar="طبيعة صامتة بالزيت" data-src="g-04.jpg">
+      <img src="g-04.jpg" alt="Still life in oils" loading="lazy">
+      <span class="shot__cap"><span>Still life in oils</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="5" data-cap-en="Pigment, texture, gesture" data-cap-ar="صبغة، وملمس، وحركة" data-src="g-05.jpg">
+      <img src="g-05.jpg" alt="Pigment, texture, gesture" loading="lazy">
+      <span class="shot__cap"><span>Pigment, texture, gesture</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="A new pair of eyes" data-cap-ar="نظرة جديدة" data-src="g-06.jpg">
+      <img src="g-06.jpg" alt="A new pair of eyes" loading="lazy">
+      <span class="shot__cap"><span>A new pair of eyes</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="Raw material" data-cap-ar="المادة الأولى" data-src="g-07.jpg">
+      <img src="g-07.jpg" alt="Raw material" loading="lazy">
+      <span class="shot__cap"><span>Raw material</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="3" data-cap-en="Long conversations" data-cap-ar="أحاديث طويلة" data-src="g-08.jpg">
+      <img src="g-08.jpg" alt="Long conversations" loading="lazy">
+      <span class="shot__cap"><span>Long conversations</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="4" data-cap-en="The quiet corner" data-cap-ar="الركن الهادئ" data-src="g-09.jpg">
+      <img src="g-09.jpg" alt="The quiet corner" loading="lazy">
+      <span class="shot__cap"><span>The quiet corner</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="5" data-cap-en="The long table" data-cap-ar="الطاولة الطويلة" data-src="g-10.jpg">
+      <img src="g-10.jpg" alt="The long table" loading="lazy">
+      <span class="shot__cap"><span>The long table</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="The first pour of the day" data-cap-ar="أول صبّة من اليوم" data-src="g-11.jpg">
+      <img src="g-11.jpg" alt="The first pour of the day" loading="lazy">
+      <span class="shot__cap"><span>The first pour of the day</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="Made by hand" data-cap-ar="صناعة اليد" data-src="g-12.jpg">
+      <img src="g-12.jpg" alt="Made by hand" loading="lazy">
+      <span class="shot__cap"><span>Made by hand</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="3" data-cap-en="The street outside" data-cap-ar="الشارع في الخارج" data-src="g-13.jpg">
+      <img src="g-13.jpg" alt="The street outside" loading="lazy">
+      <span class="shot__cap"><span>The street outside</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="4" data-cap-en="Art and people" data-cap-ar="الفن والناس" data-src="g-14.jpg">
+      <img src="g-14.jpg" alt="Art and people" loading="lazy">
+      <span class="shot__cap"><span>Art and people</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="5" data-cap-en="The pastry case" data-cap-ar="واجهة المعجنات" data-src="g-15.jpg">
+      <img src="g-15.jpg" alt="The pastry case" loading="lazy">
+      <span class="shot__cap"><span>The pastry case</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="Seasonal, in glass" data-cap-ar="موسمي، في كأس" data-src="g-16.jpg">
+      <img src="g-16.jpg" alt="Seasonal, in glass" loading="lazy">
+      <span class="shot__cap"><span>Seasonal, in glass</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="Sunday service" data-cap-ar="خدمة يوم الأحد" data-src="g-17.jpg">
+      <img src="g-17.jpg" alt="Sunday service" loading="lazy">
+      <span class="shot__cap"><span>Sunday service</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="3" data-cap-en="Kitchen discipline" data-cap-ar="انضباط المطبخ" data-src="g-18.jpg">
+      <img src="g-18.jpg" alt="Kitchen discipline" loading="lazy">
+      <span class="shot__cap"><span>Kitchen discipline</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="4" data-cap-en="Small pleasures" data-cap-ar="متع صغيرة" data-src="g-19.jpg">
+      <img src="g-19.jpg" alt="Small pleasures" loading="lazy">
+      <span class="shot__cap"><span>Small pleasures</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="5" data-cap-en="One more slice" data-cap-ar="شريحة أخرى" data-src="g-20.jpg">
+      <img src="g-20.jpg" alt="One more slice" loading="lazy">
+      <span class="shot__cap"><span>One more slice</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="After the last light" data-cap-ar="بعد آخر ضوء" data-src="g-21.jpg">
+      <img src="g-21.jpg" alt="After the last light" loading="lazy">
+      <span class="shot__cap"><span>After the last light</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="A room full of green" data-cap-ar="مكان مليء بالخُضرة" data-src="g-22.jpg">
+      <img src="g-22.jpg" alt="A room full of green" loading="lazy">
+      <span class="shot__cap"><span>A room full of green</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="3" data-cap-en="Behind the bar" data-cap-ar="خلف البار" data-src="g-23.jpg">
+      <img src="g-23.jpg" alt="Behind the bar" loading="lazy">
+      <span class="shot__cap"><span>Behind the bar</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="4" data-cap-en="The last pour" data-cap-ar="آخر صبّة" data-src="g-24.jpg">
+      <img src="g-24.jpg" alt="The last pour" loading="lazy">
+      <span class="shot__cap"><span>The last pour</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="5" data-cap-en="Flowers for the table" data-cap-ar="زهور للطاولة" data-src="g-25.jpg">
+      <img src="g-25.jpg" alt="Flowers for the table" loading="lazy">
+      <span class="shot__cap"><span>Flowers for the table</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="1" data-cap-en="A quiet cup" data-cap-ar="فنجان هادئ" data-src="g-26.jpg">
+      <img src="g-26.jpg" alt="A quiet cup" loading="lazy">
+      <span class="shot__cap"><span>A quiet cup</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+    <button type="button" class="shot reveal" data-d="2" data-cap-en="Something celebratory" data-cap-ar="شيء احتفالي" data-src="g-27.jpg">
+      <img src="g-27.jpg" alt="Something celebratory" loading="lazy">
+      <span class="shot__cap"><span>Something celebratory</span><svg width="16" height="16"><use href="#i-arrow-up-right"/></svg></span>
+    </button>
+  </div>
+</section>
+
+<!-- ============ E. EVENTS & EXPERIENCES ============ -->
+<section class="events section" id="events">
+  <div class="shell">
+    <header class="events__head">
+      <p class="eyebrow reveal"><span class="eyebrow__line"></span><span data-en="Events &amp; Experiences" data-ar="التجارب والفعاليات">التجارب والفعاليات</span></p>
+      <h2 class="h2 h2--big reveal" data-d="1" data-en="Create Something Special With Us." data-ar="اصنع شيئًا مميّزًا معنا.">اصنع شيئًا مميّزًا معنا.</h2>
+      <p class="events__lead reveal" data-d="2" data-en="Private celebrations, creative workshops or a quiet corner for your people — every format is arranged directly with our team." data-ar="مناسبات خاصة، ورش إبداعية، أو ركن هادئ لمجموعتك — يُنسَّق كل طلب مباشرة مع فريقنا.">مناسبات خاصة، ورش إبداعية، أو ركن هادئ لمجموعتك — يُنسَّق كل طلب مباشرة مع فريقنا.</p>
+    </header>
+
+    <div class="events__grid">
+      <article class="ev reveal">
+        <div class="ev__media"><img src="ev-01.jpg" alt="Private dining setup" loading="lazy"></div>
+        <div class="ev__body">
+          <span class="ev__num">01</span>
+          <h3 data-en="Private Events" data-ar="الفعاليات الخاصة">الفعاليات الخاصة</h3>
+          <p data-en="Full or partial hire of the space for launches, birthdays and brand gatherings." data-ar="حجز كامل أو جزئي للمكان للإطلاقات وأعياد الميلاد ولقاءات العلامات.">حجز كامل أو جزئي للمكان للإطلاقات وأعياد الميلاد ولقاءات العلامات.</p>
+        </div>
+      </article>
+
+      <article class="ev reveal" data-d="1">
+        <div class="ev__media"><img src="ev-02.jpg" alt="Creative workshop table" loading="lazy"></div>
+        <div class="ev__body">
+          <span class="ev__num">02</span>
+          <h3 data-en="Art Workshops" data-ar="ورش الفنون">ورش الفنون</h3>
+          <p data-en="Hands-on sessions in painting, calligraphy and coffee-cup design." data-ar="جلسات تطبيقية في الرسم والخط العربي وتصميم فناجين القهوة.">جلسات تطبيقية في الرسم والخط العربي وتصميم فناجين القهوة.</p>
+        </div>
+      </article>
+
+      <article class="ev reveal" data-d="2">
+        <div class="ev__media"><img src="ev-03.jpg" alt="Gallery wall artwork" loading="lazy"></div>
+        <div class="ev__body">
+          <span class="ev__num">03</span>
+          <h3 data-en="Private Gatherings" data-ar="اللقاءات الخاصة">اللقاءات الخاصة</h3>
+          <p data-en="A reserved table or corner for your people, with the bar kept quiet for you." data-ar="طاولة أو ركن محجوز لك ولمن تحب، مع بار هادئ لك وحدك.">طاولة أو ركن محجوز لك ولمن تحب، مع بار هادئ لك وحدك.</p>
+        </div>
+      </article>
+
+      <article class="ev reveal" data-d="3">
+        <div class="ev__media"><img src="ev-04.jpg" alt="Gallery corridor interior" loading="lazy"></div>
+        <div class="ev__body">
+          <span class="ev__num">04</span>
+          <h3 data-en="Catering Inquiries" data-ar="استفسارات الضيافة">استفسارات الضيافة</h3>
+          <p data-en="Coffee, pastries and light bites brought to your space, styled to match." data-ar="قهوة ومعجنات وأطباق خفيفة تُقدَّم في مكانك بتنسيق يليق بالمناسبة.">قهوة ومعجنات وأطباق خفيفة تُقدَّم في مكانك بتنسيق يليق بالمناسبة.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="events__cta reveal">
+      <div class="events__cta-text">
+        <svg width="26" height="26"><use href="#i-spark"/></svg>
+        <div>
+          <h3 data-en="Tell us what you're imagining." data-ar="أخبرنا بما تتخيّله.">أخبرنا بما تتخيّله.</h3>
+          <p data-en="Send an enquiry and our team will reply with options, timings and pricing." data-ar="أرسل استفسارك وسيردّ فريقنا بخيارات التوقيت والأسعار.">أرسل استفسارك وسيردّ فريقنا بخيارات التوقيت والأسعار.</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn--terracotta" data-modal="events">
+        <span data-en="Start an Inquiry" data-ar="ابدأ استفسارًا">ابدأ استفسارًا</span>
+        <svg width="18" height="18"><use href="#i-arrow"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ F. VISIT US ============ -->
+<section class="visit section" id="visit">
+  <div class="shell visit__grid">
+    <div class="visit__media reveal">
+      <img src="visit-1.jpg" alt="Minimal cup detail from the GLÄDIA concept" loading="lazy">
+      <figure class="visit__inset">
+        <img src="visit-2.jpg" alt="Coffee beans close up" loading="lazy">
+      </figure>
+    </div>
+
+    <div class="visit__info">
+      <p class="eyebrow reveal"><span class="eyebrow__line"></span><span data-en="Visit Us" data-ar="زورونا">زورونا</span></p>
+      <h2 class="h2 reveal" data-d="1" data-en="Find Your Way Here" data-ar="كيف تصل إلينا">كيف تصل إلينا</h2>
+
+      <dl class="visit__list">
+        <div class="visit__row reveal" data-d="2">
+          <dt data-en="Venue" data-ar="المكان">المكان</dt>
+          <dd>GLÄDIA <span data-en="Café" data-ar="كافيه">كافيه</span></dd>
+        </div>
+        <div class="visit__row reveal" data-d="3">
+          <dt data-en="Area" data-ar="المنطقة">المنطقة</dt>
+          <dd data-en="Al Muhammadiyah, Jeddah, Saudi Arabia" data-ar="المحمدية، جدة، المملكة العربية السعودية">المحمدية، جدة، المملكة العربية السعودية</dd>
+        </div>
+        <div class="visit__row reveal" data-d="4">
+          <dt data-en="Instagram" data-ar="إنستغرام">إنستغرام</dt>
+          <dd><a class="handle" href="https://instagram.com/gladia_cafe" target="_blank" rel="noopener">@gladia_cafe</a></dd>
+        </div>
+        <div class="visit__row reveal" data-d="5">
+          <dt data-en="Opening Hours" data-ar="ساعات العمل">ساعات العمل</dt>
+          <dd class="visit__muted">
+            <span data-en="Weekdays — to be confirmed" data-ar="أيام الأسبوع — قيد التأكيد">أيام الأسبوع — قيد التأكيد</span><br>
+            <span data-en="Weekends — to be confirmed" data-ar="عطلة نهاية الأسبوع — قيد التأكيد">عطلة نهاية الأسبوع — قيد التأكيد</span>
+          </dd>
+        </div>
+      </dl>
+
+      <div class="map reveal" data-d="2">
+        <div class="map__grid" aria-hidden="true"></div>
+        <div class="map__pin"><svg width="22" height="22"><use href="#i-pin"/></svg></div>
+        <p class="map__label" data-en="Google Maps preview — exact pin to be added" data-ar="معاينة خرائط جوجل — يُضاف الموقع لاحقًا">معاينة خرائط جوجل — يُضاف الموقع لاحقًا</p>
+      </div>
+
+      <div class="visit__actions reveal" data-d="3">
+        <a href="#contact" class="btn btn--dark"><span data-en="Get Directions" data-ar="الاتجاهات">الاتجاهات</span></a>
+        <a href="https://instagram.com/gladia_cafe" target="_blank" rel="noopener" class="btn btn--line-dark">
+          <svg width="17" height="17"><use href="#i-instagram"/></svg><span class="handle">@gladia_cafe</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ G. CONTACT ============ -->
+<section class="contact section" id="contact">
+  <div class="contact__bg" aria-hidden="true"></div>
+  <div class="shell contact__inner">
+    <p class="eyebrow eyebrow--light reveal"><span class="eyebrow__line"></span><span data-en="Get in Touch" data-ar="تواصل معنا">تواصل معنا</span></p>
+    <h2 class="h2 h2--light reveal" data-d="1" data-en="Let's Make Something Memorable." data-ar="لنصنع شيئًا يستحق الذكر.">لنصنع شيئًا يستحق الذكر.</h2>
+    <p class="contact__lead reveal" data-d="2" data-en="For bookings, collaborations or a simple hello — reach us on the channel you prefer." data-ar="للحجوزات أو التعاون أو مجرّد تحيّة — تواصل معنا عبر القناة التي تفضّلها.">للحجوزات أو التعاون أو مجرّد تحيّة — تواصل معنا عبر القناة التي تفضّلها.</p>
+
+    <div class="contact__row reveal" data-d="3">
+      <button type="button" class="cbtn" data-modal="whatsapp">
+        <span class="cbtn__ico"><svg width="22" height="22"><use href="#i-whatsapp"/></svg></span>
+        <span class="cbtn__body">
+          <span class="cbtn__title" data-en="Contact on WhatsApp" data-ar="تواصل عبر واتساب">تواصل عبر واتساب</span>
+          <span class="cbtn__sub" data-en="Fastest reply — number to be confirmed" data-ar="أسرع وسيلة للرد — الرقم قيد التأكيد">أسرع وسيلة للرد — الرقم قيد التأكيد</span>
+        </span>
+        <svg class="cbtn__arrow" width="20" height="20"><use href="#i-arrow-up-right"/></svg>
+      </button>
+
+      <button type="button" class="cbtn" data-modal="instagram">
+        <span class="cbtn__ico"><svg width="22" height="22"><use href="#i-instagram"/></svg></span>
+        <span class="cbtn__body">
+          <span class="cbtn__title" data-en="Follow on Instagram" data-ar="تابعنا على إنستغرام">تابعنا على إنستغرام</span>
+          <span class="cbtn__sub handle">@gladia_cafe</span>
+        </span>
+        <svg class="cbtn__arrow" width="20" height="20"><use href="#i-arrow-up-right"/></svg>
+      </button>
+
+      <button type="button" class="cbtn" data-modal="events">
+        <span class="cbtn__ico"><svg width="22" height="22"><use href="#i-spark"/></svg></span>
+        <span class="cbtn__body">
+          <span class="cbtn__title" data-en="Event Inquiry" data-ar="استفسار عن فعالية">استفسار عن فعالية</span>
+          <span class="cbtn__sub" data-en="Private events, workshops, catering" data-ar="فعاليات خاصة، ورش، ضيافة">فعاليات خاصة، ورش، ضيافة</span>
+        </span>
+        <svg class="cbtn__arrow" width="20" height="20"><use href="#i-arrow-up-right"/></svg>
+      </button>
+    </div>
+
+    <p class="contact__note reveal" data-d="4">
+      <span class="demo-note__tag demo-note__tag--light" data-en="Demo" data-ar="نموذج">نموذج</span>
+      <span data-en="Contact details shown in this prototype are placeholders and will be confirmed before launch." data-ar="بيانات التواصل في هذا النموذج مؤقتة وسيتم تأكيدها قبل الإطلاق.">بيانات التواصل في هذا النموذج مؤقتة وسيتم تأكيدها قبل الإطلاق.</span>
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ H. FOOTER ============ -->
+<footer class="ftr">
+  <div class="shell">
+    <div class="ftr__top">
+      <div class="ftr__brand">
+        <svg class="ftr__mark" width="40" height="40"><use href="#i-mark"/></svg>
+        <p class="ftr__word">GLÄDIA</p>
+        <p class="ftr__tag" data-en="Coffee. Art. Experience." data-ar="قهوة. فن. تجربة.">قهوة. فن. تجربة.</p>
+        <a href="https://instagram.com/gladia_cafe" target="_blank" rel="noopener" class="ftr__ig">
+          <svg width="16" height="16"><use href="#i-instagram"/></svg><span class="handle">@gladia_cafe</span>
+        </a>
+      </div>
+
+      <nav class="ftr__nav" aria-label="تذييل الموقع" data-aria-en="Footer" data-aria-ar="تذييل الموقع">
+        <div>
+          <h4 data-en="Explore" data-ar="تصفّح">تصفّح</h4>
+          <a href="#story" data-en="Story" data-ar="القصة">القصة</a>
+          <a href="#menu" data-en="Menu" data-ar="القائمة">القائمة</a>
+          <a href="#gallery" data-en="Gallery" data-ar="المعرض">المعرض</a>
+        </div>
+        <div>
+          <h4 data-en="Experience" data-ar="التجربة">التجربة</h4>
+          <a href="#events" data-en="Events" data-ar="التجارب">التجارب</a>
+          <a href="#visit" data-en="Visit Us" data-ar="زورونا">زورونا</a>
+          <a href="#contact" data-en="Contact" data-ar="تواصل معنا">تواصل معنا</a>
+        </div>
+        <div>
+          <h4 data-en="Location" data-ar="الموقع">الموقع</h4>
+          <p data-en="Al Muhammadiyah, Jeddah, Saudi Arabia" data-ar="المحمدية، جدة، المملكة العربية السعودية">المحمدية، جدة، المملكة العربية السعودية</p>
+        </div>
+      </nav>
+    </div>
+
+    <div class="ftr__bottom">
+      <p>&copy; <span id="year">2026</span> GLÄDIA <span data-en="Café" data-ar="كافيه">كافيه</span>. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">جميع الحقوق محفوظة.</span></p>
+      <p class="ftr__credit" data-en="Concept prototype presented by Servlexy — menu content and contact details are placeholders." data-ar="نموذج أوّلي للمفهوم مقدَّم من سيرفلكسي — محتوى القائمة وبيانات التواصل مؤقتة.">نموذج أوّلي للمفهوم مقدَّم من سيرفلكسي — محتوى القائمة وبيانات التواصل مؤقتة.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery viewer" aria-hidden="true">
+  <button type="button" class="lightbox__close" id="lbClose" aria-label="إغلاق العرض" data-aria-en="Close viewer" data-aria-ar="إغلاق العرض"><svg width="22" height="22"><use href="#i-close"/></svg></button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="الصورة السابقة" data-aria-en="Previous image" data-aria-ar="الصورة السابقة"><svg width="26" height="26" class="flip"><use href="#i-arrow"/></svg></button>
+  <button type="button" class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="الصورة التالية" data-aria-en="Next image" data-aria-ar="الصورة التالية"><svg width="26" height="26"><use href="#i-arrow"/></svg></button>
+  <figure class="lightbox__stage">
+    <img id="lbImg" alt="" width="1600" height="1067">
+    <figcaption class="lightbox__cap"><span id="lbCap"></span><i id="lbCount"></i></figcaption>
+  </figure>
+</div>
+
+<!-- ============ MODAL ============ -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal__scrim" data-close></div>
+  <div class="modal__panel">
+    <button type="button" class="modal__close" data-close aria-label="إغلاق" data-aria-en="Close" data-aria-ar="إغلاق"><svg width="22" height="22"><use href="#i-close"/></svg></button>
+    <p class="modal__eyebrow" id="modalEyebrow">GLÄDIA</p>
+    <h3 class="modal__title" id="modalTitle"></h3>
+    <div class="modal__body" id="modalBody"></div>
+    <div class="modal__actions" id="modalActions"></div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
